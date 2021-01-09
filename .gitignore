@@ -1,0 +1,11 @@
+application/logs/*
+application/modules/*
+!application/modules/admin
+!application/modules/templates
+!application/modules/main
+tst/
+tstfile
+tstfile1
+.idea
+.idea/*
+
