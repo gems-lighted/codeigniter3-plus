@@ -257,7 +257,8 @@ class Admin extends MX_Controller{
                 'cmd' => 'showListFields',
                 'payload' => "There's no table for module ".$msg['payload']['txtModulename']." yet defined!"
             );
-        }
+	}
+	
         return $res;
 
     }

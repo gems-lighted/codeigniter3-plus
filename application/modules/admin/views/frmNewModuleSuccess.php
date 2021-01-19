@@ -3,7 +3,7 @@
 
 <ul>
     <li><?php echo anchor('/admin/mngModules','Add another one'); ?></li>
-    <li><?php echo anchor('/'.$newmodulename,'Open new module'.$newmodulename); ?></li>
+    <li><?php echo anchor('/'.strtolower($newmodulename),'Open new module'.$newmodulename); ?></li>
 </ul>
 
 
